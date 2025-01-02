@@ -1,0 +1,41 @@
+Çevrimiçi Market Alışveriş Sepeti Projesi 
+Proje Ödevi Kuralları ve Şartları 
+
+Bu projede, nesne yönelimli programlama (OOP) tekniklerini kullanarak bir "Çevrimiçi Market Alışveriş 
+Sepeti" oluşturacaksınız. Bu program, product.txt dosyasını veri tabanı olarak kullanacak ve her satır bir 
+ürünü temsil edecektir. Her satırda ürün adı, kategori, fiyat ve stok miktarı virgülle ayrılmış şekilde 
+tutulacaktır. Proje, öğrendiklerinizi pratikte uygulayarak pekiştirmenize yardımcı olacaktır.
+1. Market Sınıfı Oluşturma 
+a. Sınıf Tanımı ve Yapıcı Metot (Constructor): 
+• Market adında bir sınıf oluşturun.
+• Yapıcı (constructor) metot, product.txt dosyasını açmalı ve dosyanın mevcut olup 
+olmadığını kontrol etmelidir. Dosya yoksa oluşturulmalıdır.
+b. Yıkıcı Metot (Destructor): 
+• Yıkıcı metot, program sonlandığında product.txt dosyasını kapatmalıdır.
+2. Market Sınıfına Eklenecek Metotlar 
+a. List Product: Bu metot, product.txt dosyasındaki tüm ürünleri listeleyecektir. 
+• Dosya içeriğini okuyun.
+• splitlines() metodu ile her satırı bir listeye ekleyin.
+• Listenin her elemanı bir ürünü temsil edecektir. Bu bilgileri kullanarak ürün adlarını, 
+kategorilerini, fiyatlarını ve stok miktarlarını yazdırın.
+b. Add Product: Bu metot, product.txt dosyasına yeni bir ürün ekleyecektir.
+• Kullanıcıdan ürün adı, kategori, fiyat ve stok miktarını girmesini isteyin.
+• Bu bilgilerle bir satır oluşturun ve virgülle ayrılmış şekilde düzenleyin.
+• Bu satırı dosyaya ekleyin.
+c. Delete Product: Bu metot, eklenen ürünü product.txt dosyasından silecektir. 
+• Kullanıcıdan ürün adını veya numarasını girmesini isteyin.
+• Dosya içeriğini okuyup her satırı bir listeye ekleyin.
+• Silinecek ürünün listede hangi satırda olduğunu bulun.
+• Ürünü listeden çıkarın.
+• Dosya içeriğini temizleyip, güncellenmiş listeyi yeniden dosyaya yazın.
+3. Menu: Kullanıcının etkileşim kurabileceği bir menu oluşturun.
+• Market sınıfından market adında bir nesne oluşturun.
+• market nesnesini arayüz menüsüne bağlayın.
+• Kullanıcıdan menu öğesi için bir giriş isteyin ve bu girdiyi bir değişkene atayın.
+• if-elif-else yapısını kullanarak kullanıcı girişini kontrol edin ve ilgili metotları çalıştırın.
+
+*** MENÜ *** 
+1) Ürünleri Listele 
+2) Ürün Ekle 
+3) Ürün Sil 
+4) Çıkış
