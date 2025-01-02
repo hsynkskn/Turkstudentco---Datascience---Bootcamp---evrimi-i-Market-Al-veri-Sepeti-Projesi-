@@ -1,0 +1,6 @@
+elma,manav,0.01,1
+portakal,manav,0.01,1
+çilek,manav,0.01,1
+peynir,gýda,0.01,1
+zeytin,gýda,0.01,1
+margarin,gýda,0.01,1
